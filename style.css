@@ -53,3 +53,124 @@ background-color: red;
 color: white;
 text-align: center;
 }
+
+.crab-three-box {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  margin-top: 50px;
+}
+
+.crab-main {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding: 5px;
+  border-radius: 30px;
+  width: 311px;
+  border: none;
+}
+
+button.subcrib-bottom {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 25px;
+  border-radius: 40px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+button.subcrib-bottom:hover {
+  background: green;
+  font-weight: bold;
+  color: wheat;
+}
+
+input[type="text"]:hover {
+  border: 3px solid skyblue;
+}
+
+.footer-main {
+  width: 1200px;
+  margin: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+
+.footer-main>nav>ul>li {
+  list-style: none;
+
+}
+
+.footer>nav>ul {
+  list-style: none;
+
+}
+
+.footer>nav>ul>li>a {
+  text-decoration: none;
+  color: black;
+}
+
+a.footer-text {
+  font-weight: bold;
+}
+
+.footer>nav>ul>li>a:hover {
+  border-bottom: 1px solid black;
+
+}
+
+.footer-2nd-box {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+}
+
+.design {
+  height: auto;
+  margin: auto;
+  width: 1200px;
+  text-align: center;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+}
+
+.design h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-socialmedia>nav>ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer-socialmedia>nav>ul>li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.footer-socialmedia>nav>ul>li>a {
+  color: black;
+}
+
+.footer-2nd-box {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
