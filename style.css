@@ -1,31 +1,40 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+
+body{
+  font-size: 15px;
+  line-height: 150%;
+  color: 999;
+}
+
 .header {
   background-color: #f1f1f1;
-  width: 1200px;
+  width: auto;
   margin: auto;
   height: auto;
   align-items: center;
   display: flex;
   justify-content: space-between;
+  padding: 10px o;
 }
 
-.header a {
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  font-size: 18px;
-  }
 
 .header a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
+.main-logo-and-main-menu {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
 
-.header {}
+
 
 .main-logo {
   width: 30%;
@@ -35,13 +44,54 @@
   max-width: 100%;
 }
 
-.header-right a {
-  padding-right: 5px;
-  padding-left: 5px;
+.header-right ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: end;
 }
 
+.header-right ul li a {
+  font-size: 16px;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.header-right ul li a hover {
+  background: red;
+  color: white;
+}
 .header-right {
   width: 60%;
+}
+
+main {
+  width: 1200px;
+  margin: auto;
+  padding: 10px;
+  margin: 50px auto;
+}
+
+footer {
+  background: antiquewhite;
+  padding: 10px 0;
+}
+
+.footer-main nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-item nav ul li a {
+  padding: 10px 0 5px;
+  text-decoration: none;
+  font-family: serif;
+  display: block;
+  color: black;
 }
 
 .footer {
